@@ -1,19 +1,23 @@
 # 🌦️ Weather App
 
+![Flutter](https://img.shields.io/badge/Flutter-3.13.0-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+
 A beautiful, responsive weather application built with **Flutter** that provides real-time weather information and forecasts for cities worldwide.
 
-![Weather App Screenshot](https://via.placeholder.com/400x800?text=Weather+App+Screenshot)
+![Weather App Demo](assets/demo/weather_demo.gif)
 
 ---
 
 ## ✨ Features
 
-* **Current Weather Display**: Shows temperature, weather conditions, humidity, wind speed, and pressure
-* **5-Day Forecast**: Horizontally scrollable forecast cards for the next 5 days
-* **City Search**: Search for weather information by city name
-* **Dynamic UI**: Background and theme change based on weather conditions
-* **Pull-to-Refresh**: Refresh weather data with a simple pull gesture
-* **Error Handling**: Graceful handling of network errors and invalid locations
+| Feature                 | Status |
+| ----------------------- | ------ |
+| Current Weather Display | ✅      |
+| 5-Day Forecast          | ✅      |
+| City Search             | ✅      |
+| Dynamic UI              | ✅      |
+| Pull-to-Refresh         | ✅      |
+| Error Handling          | ✅      |
 
 ---
 
@@ -76,28 +80,6 @@ A beautiful, responsive weather application built with **Flutter** that provides
 
 ---
 
-## 📱 How to Use
-
-* **On First Launch**:
-
-  * The app will request location permission
-  * If granted, it shows weather for your current location
-  * If denied, it defaults to **London**
-
-* **Viewing Weather**:
-
-  * The home screen displays current weather conditions
-  * Scroll horizontally to see the 5-day forecast
-  * Pull down to refresh data
-
-* **Searching for a City**:
-
-  * Tap the **search icon** in the app bar
-  * Enter a city name (e.g., `New York` or `Tokyo,JP`)
-  * Press **search** or hit enter
-
----
-
 ## 🌍 Testing Cities
 
 | City        | Country   | Search Query   |
@@ -139,6 +121,33 @@ lib/
 
 ---
 
+## 🛠️ Tech Stack
+
+* Flutter & Dart
+* OpenWeatherMap API
+* Provider for state management
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+---
+
+## 📫 Contact
+
+* Email: [amirbayat.dev@gmail.com](mailto:ymirbayat.dev@gmail.com)
+
+---
+
+## ⚠️ Known Issues / TODO
+
+* Dark mode support coming soon
+* More accurate location handling in rural areas
+
+---
+
 ## 📜 License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
@@ -149,4 +158,3 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 * Weather data from [OpenWeatherMap](https://openweathermap.org/)
 * Icons from [OpenWeatherMap](https://openweathermap.org/weather-conditions)
-* Animations from [LottieFiles](https://lottiefiles.com/)
