@@ -23,9 +23,6 @@ A beautiful weather application built with **Flutter** that provides real-time w
 
 ## ✨ ScreenShots
 
-<div align="center">
-
-### ScreenShots
 <p align="center">
   <img src="https://github.com/user-attachments/assets/751f937f-b06f-405e-9043-a03958d911ef" width="300" />
   <img src="https://github.com/user-attachments/assets/37b439e6-5771-4323-9bfe-fa8e95e218b8" width="300" />
@@ -35,8 +32,6 @@ A beautiful weather application built with **Flutter** that provides real-time w
   <img src="https://github.com/user-attachments/assets/b6816688-d3de-4982-b1a0-3b7447980922" width="300" />
 </p>
 
-
-</div>
 
 
 ---
