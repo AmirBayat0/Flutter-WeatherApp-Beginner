@@ -68,21 +68,7 @@ A beautiful, responsive weather application built with **Flutter** that provides
      static const String apiKey = 'your_actual_api_key_here';
      ```
 
-5. **Add a Lottie animation**
-
-   * Download a weather animation from [LottieFiles](https://lottiefiles.com/)
-   * Create the directory: `assets/animations/`
-   * Save the file as `weather_animation.json`
-   * Update `pubspec.yaml`:
-
-     ```yaml
-     flutter:
-       uses-material-design: true
-       assets:
-         - assets/animations/
-     ```
-
-6. **Run the app**
+5. **Run the app**
 
    ```bash
    flutter run
