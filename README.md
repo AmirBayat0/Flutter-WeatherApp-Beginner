@@ -2,7 +2,7 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.13.0-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
-A beautiful, responsive weather application built with **Flutter** that provides real-time weather information and forecasts for cities worldwide.
+A beautiful weather application built with **Flutter** that provides real-time weather information and forecasts for cities worldwide.
 
 ![Weather App Demo](assets/demo/weather_demo.gif)
 
